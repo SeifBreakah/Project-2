@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(53, 105, 103);
+    color: rgb(153, 230, 207);
+}
+header{
+    background-color: rgb(101, 206, 175);
+    text-align: center;
+    width: fit-content;
+    position: relative;
+    left:500px;
+}
+header a {
+    text-decoration: none;
+    width: fit-content;
+    font-size: 30px;
+    text-align: center;
+    border: 3px black solid;
+    padding:1px 10px 1px 10px;
+    transition: font-size 1s;
+    color:rgb(53, 105, 103);
+    
+}
+a:hover{
+    font-size: 35px;
+}
+header h1{
+    font-size: 40px;
+    color:rgb(53, 105, 103);
+}
+footer p{
+    position: absolute;
+    bottom: 20px;
+}
+.left {
+    position:absolute;
+    right: 0px;
+    top: 0;
+}
+main p {
+    text-align: center;
+} 
+h1 {
+    text-align: center;
+}
+.right {
+    position: absolute;
+    left: 0;
+    top:0;
+}
